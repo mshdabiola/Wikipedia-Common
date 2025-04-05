@@ -1,4 +1,4 @@
-name: Release Windows and Linux Hydraulic Conveyor
+name: Release Windows and Linux Wikipedia-Common Conveyor
 
 on:
   push:
