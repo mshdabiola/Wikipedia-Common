@@ -1,4 +1,4 @@
-package com.mshdabiola.skeletonapp.ui
+package com.mshdabiola.wikipedia_common.ui
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Domain
