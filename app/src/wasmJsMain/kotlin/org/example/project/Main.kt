@@ -11,8 +11,8 @@ import androidx.compose.ui.window.ComposeViewport
 import co.touchlab.kermit.Logger
 import co.touchlab.kermit.loggerConfigInit
 import co.touchlab.kermit.platformLogWriter
-import com.mshdabiola.skeletonapp.di.appModule
-import com.mshdabiola.skeletonapp.ui.SkeletonApp
+import com.mshdabiola.wikipedia_common.di.appModule
+import com.mshdabiola.wikipedia_common.ui.SkeletonApp
 import com.mshdabiola.ui.SplashScreen
 import kotlinx.browser.document
 import kotlinx.coroutines.delay
