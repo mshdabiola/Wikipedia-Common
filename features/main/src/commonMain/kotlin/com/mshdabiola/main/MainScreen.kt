@@ -49,11 +49,11 @@ import com.mshdabiola.designsystem.theme.lightDefaultScheme
 import com.mshdabiola.model.Note
 import com.mshdabiola.ui.SharedContentPreview
 import com.mshdabiola.ui.noteItems
-import hydraulic.features.main.generated.resources.Res
-import hydraulic.features.main.generated.resources.features_main_empty_description
-import hydraulic.features.main.generated.resources.features_main_empty_error
-import hydraulic.features.main.generated.resources.features_main_img_empty_bookmarks
-import hydraulic.features.main.generated.resources.features_main_loading
+import wikipedia_common.features.main.generated.resources.Res
+import wikipedia_common.features.main.generated.resources.features_main_empty_description
+import wikipedia_common.features.main.generated.resources.features_main_empty_error
+import wikipedia_common.features.main.generated.resources.features_main_img_empty_bookmarks
+import wikipedia_common.features.main.generated.resources.features_main_loading
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
