@@ -36,10 +36,10 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.mshdabiola.model.DarkThemeConfig
 import com.mshdabiola.model.ThemeBrand
 import com.mshdabiola.ui.Waiting
-import hydraulic.features.setting.generated.resources.Res
-import hydraulic.features.setting.generated.resources.daynight
-import hydraulic.features.setting.generated.resources.theme
 import org.jetbrains.compose.resources.stringArrayResource
+import wikipedia_common.features.setting.generated.resources.Res
+import wikipedia_common.features.setting.generated.resources.daynight
+import wikipedia_common.features.setting.generated.resources.theme
 
 // import org.koin.androidx.compose.koinViewModel
 

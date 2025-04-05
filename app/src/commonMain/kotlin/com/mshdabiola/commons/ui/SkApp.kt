@@ -2,7 +2,7 @@
  *abiola 2022
  */
 
-package com.mshdabiola.skeletonapp.ui
+package com.mshdabiola.commons.ui
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Column
@@ -43,6 +43,9 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.mshdabiola.analytics.AnalyticsHelper
 import com.mshdabiola.analytics.LocalAnalyticsHelper
+import com.mshdabiola.commons.MainActivityUiState
+import com.mshdabiola.commons.MainAppViewModel
+import com.mshdabiola.commons.navigation.SkNavHost
 import com.mshdabiola.designsystem.component.SkBackground
 import com.mshdabiola.designsystem.component.SkGradientBackground
 import com.mshdabiola.designsystem.component.SkTopAppBar
@@ -55,9 +58,6 @@ import com.mshdabiola.detail.navigation.navigateToDetail
 import com.mshdabiola.model.DarkThemeConfig
 import com.mshdabiola.model.ThemeBrand
 import com.mshdabiola.setting.navigation.navigateToSetting
-import com.mshdabiola.skeletonapp.MainActivityUiState
-import com.mshdabiola.skeletonapp.MainAppViewModel
-import com.mshdabiola.skeletonapp.navigation.SkNavHost
 import com.mshdabiola.ui.semanticsCommon
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel

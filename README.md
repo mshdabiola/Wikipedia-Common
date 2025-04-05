@@ -10,45 +10,45 @@
   <br>
   <br>
  <a href="">
-<img src="https://tokei.rs/b1/github/mshdabiola/hydraulic?category=code&color=orange&style=for-the-badge" alt=""/>
+<img src="https://tokei.rs/b1/github/mshdabiola/wikipedia-common?category=code&color=orange&style=for-the-badge" alt=""/>
 </a>
-    <a href="https://github.com/mshdabiola/hydraulic/actions">
-  <img alt="GitHub commits since tagged version (branch)" src="https://img.shields.io/github/commits-since/mshdabiola/hydraulic/1.0.0?color=palegreen&label=Commits&style=for-the-badge">
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/mshdabiola/hydraulic?style=for-the-badge&color=37ABB5">
+    <a href="https://github.com/mshdabiola/wikipedia-common/actions">
+  <img alt="GitHub commits since tagged version (branch)" src="https://img.shields.io/github/commits-since/mshdabiola/wikipedia-common/1.0.0?color=palegreen&label=Commits&style=for-the-badge">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/mshdabiola/wikipedia-common?style=for-the-badge&color=37ABB5">
   <img src="https://wakatime.com/badge/user/8e707c95-01e6-41d3-a760-223960f0cdf7.svg?style=for-the-badge" alt=""/>
 </a>
   <br>
-  <a href="https://hits.sh/github.com/mshdabiola/hydraulic/">
-      <img alt="Hits" src="https://hits.sh/github.com/mshdabiola/hydraulic.svg?style=for-the-badge&label=Views&extraCount=7500&color=ff3f6f"/></a>
-  <a href="https://github.com/mshdabiola/hydraulic/releases">
-      <img src="https://img.shields.io/github/downloads/mshdabiola/hydraulic/total?color=orange&style=for-the-badge"/>
+  <a href="https://hits.sh/github.com/mshdabiola/wikipedia-common/">
+      <img alt="Hits" src="https://hits.sh/github.com/mshdabiola/wikipedia-common.svg?style=for-the-badge&label=Views&extraCount=7500&color=ff3f6f"/></a>
+  <a href="https://github.com/mshdabiola/wikipedia-common/releases">
+      <img src="https://img.shields.io/github/downloads/mshdabiola/wikipedia-common/total?color=orange&style=for-the-badge"/>
   </a>
-  <a href="https://github.com/mshdabiola/hydraulic/stargazers">
-      <img src="https://img.shields.io/github/stars/mshdabiola/hydraulic?color=ffff00&style=for-the-badge"/>
+  <a href="https://github.com/mshdabiola/wikipedia-common/stargazers">
+      <img src="https://img.shields.io/github/stars/mshdabiola/wikipedia-common?color=ffff00&style=for-the-badge"/>
   </a>
   <br>
-  <a href="https://github.com/mshdabiola/hydraulic/releases/latest">
-      <img src="https://img.shields.io/github/v/release/mshdabiola/hydraulic?color=purple&include_prereleases&logo=github&style=for-the-badge"/>
+  <a href="https://github.com/mshdabiola/wikipedia-common/releases/latest">
+      <img src="https://img.shields.io/github/v/release/mshdabiola/wikipedia-common?color=purple&include_prereleases&logo=github&style=for-the-badge"/>
   </a>
 
-[//]: # (   <a href="https://play.google.com/store/apps/details?id=ru.tech.hydraulicshrinker">)
+[//]: # (   <a href="https://play.google.com/store/apps/details?id=ru.tech.wikipedia-commonshrinker">)
 
-[//]: # (      <img src="https://img.shields.io/endpoint?color=purple&logo=google-play&style=for-the-badge&label=Play%20store&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dru.tech.hydraulicshrinker%26l%3DAndroid%26m%3D%24version"/>)
+[//]: # (      <img src="https://img.shields.io/endpoint?color=purple&logo=google-play&style=for-the-badge&label=Play%20store&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dru.tech.wikipedia-commonshrinker%26l%3DAndroid%26m%3D%24version"/>)
 
 [//]: # (  </a>)
 
-[//]: # (  <a href="https://f-droid.org/packages/ru.tech.hydraulicshrinker">)
+[//]: # (  <a href="https://f-droid.org/packages/ru.tech.wikipedia-commonshrinker">)
 
-[//]: # (      <img src="https://img.shields.io/f-droid/v/ru.tech.hydraulicshrinker?color=purple&include_prereleases&logo=FDROID&style=for-the-badge"/>)
+[//]: # (      <img src="https://img.shields.io/f-droid/v/ru.tech.wikipedia-commonshrinker?color=purple&include_prereleases&logo=FDROID&style=for-the-badge"/>)
 </p>
 
 
 <div align="center">
     <a href="https://example.com"><img alt="Google Play" src="./fastlane/metadata/android/en-US/images/buttons/gplay.svg" height="60"></a>
-    <a href="https://f-droid.org/packages/ru.tech.hydraulicshrinker"><img alt="F-Droid" src="./fastlane/metadata/android/en-US/images/buttons/fdroid.svg" height="60"/></a>
-    <a href="https://github.com/mshdabiola/hydraulic/releases/latest"><img alt="GitHub" src="./fastlane/metadata/android/en-US/images/buttons/github.svg" height="60"/></a>
-  <a href="https://hydraulic-desktop.onrender.com"><img alt="Desktop Download" src="./fastlane/metadata/android/en-US/images/buttons/desktop.svg" height="60"/></a>
-    <a href="https://hydraulic.onrender.com"><img alt="Hydraulic Online" src="./fastlane/metadata/android/en-US/images/buttons/online.svg" height="60"/></a>
+    <a href="https://f-droid.org/packages/ru.tech.wikipedia-commonshrinker"><img alt="F-Droid" src="./fastlane/metadata/android/en-US/images/buttons/fdroid.svg" height="60"/></a>
+    <a href="https://github.com/mshdabiola/wikipedia-common/releases/latest"><img alt="GitHub" src="./fastlane/metadata/android/en-US/images/buttons/github.svg" height="60"/></a>
+  <a href="https://wikipedia-common-desktop.onrender.com"><img alt="Desktop Download" src="./fastlane/metadata/android/en-US/images/buttons/desktop.svg" height="60"/></a>
+    <a href="https://wikipedia-common.onrender.com"><img alt="Wikipedia-Common Online" src="./fastlane/metadata/android/en-US/images/buttons/online.svg" height="60"/></a>
    
 
 </div>
@@ -58,11 +58,11 @@
 </div>
 
 <div align="center"> 
-     <h1>Hydraulic Compose Multiplatform Template</h1>
+     <h1>Wikipedia-Common Compose Multiplatform Template</h1>
 </div>
 
 <div style="text-align: center;">
-hydraulic is a compose multiplatform template. that use note app as an example. it is multi-module architecture. 
+wikipedia-common is a compose multiplatform template. that use note app as an example. it is multi-module architecture. 
 </div>
 
 
@@ -227,11 +227,11 @@ Distribute the APK through your preferred channels (e.g., GitHub Releases, F-Dro
 
 ### Desktop
 
-This project leverages Hydraulic Conveyor for packaging and distributing the Desktop application.
-Hydraulic Conveyor simplifies the creation of installers and distributable packages across various
+This project leverages Wikipedia-Common Conveyor for packaging and distributing the Desktop application.
+Wikipedia-Common Conveyor simplifies the creation of installers and distributable packages across various
 operating systems (Windows, macOS, Linux).
 
-1. Install hydraulic conveyor at [Hydraulic](https://downloads.hydraulic.dev/)
+1. Install wikipedia-common conveyor at [Wikipedia-Common](https://downloads.wikipedia-common.dev/)
 
 2. Build the release executable using the following Gradle command:
 
@@ -335,18 +335,18 @@ remains performant and responsive as the application evolves.
 
 ## Find this repository useful?
 
-Support it by joining **[stargazers](https://github.com/mshdabiola/hydraulic/stargazers)** for this
+Support it by joining **[stargazers](https://github.com/mshdabiola/wikipedia-common/stargazers)** for this
 repository. :star: <br>
 And **[follow](https://github.com/mshdabiola)** me for my next creations! 🤩
 
 ## Star History
 
 <div align="center">
-<a href="https://star-history.com/#mshdabiola/hydraulic&Date">
+<a href="https://star-history.com/#mshdabiola/wikipedia-common&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=mshdabiola/hydraulic&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=mshdabiola/hydraulic&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=mshdabiola/hydraulic&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=mshdabiola/wikipedia-common&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=mshdabiola/wikipedia-common&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=mshdabiola/wikipedia-common&type=Date" />
   </picture>
 </a>
 
@@ -355,12 +355,12 @@ And **[follow](https://github.com/mshdabiola)** me for my next creations! 🤩
 
 ## Contributors
 
-<a href="https://github.com/mshdabiola/hydraulic/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mshdabiola/hydraulic" />
+<a href="https://github.com/mshdabiola/wikipedia-common/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mshdabiola/wikipedia-common" />
 </a>
 
 
 # License
 
-**Hydraulic** is distributed under the terms of the GNU License (Version 2.0). See the
+**Wikipedia-Common** is distributed under the terms of the GNU License (Version 2.0). See the
 [license](LICENSE) for more information.

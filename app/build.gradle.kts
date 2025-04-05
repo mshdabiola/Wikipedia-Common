@@ -14,7 +14,7 @@ plugins {
 
 }
 
-group = "com.mshdabiola.skeletonapp"
+group = "com.mshdabiola.commons"
 version = libs.versions.versionName.get()
 
 dependencies {
@@ -159,10 +159,10 @@ android {
     sourceSets["main"].res.srcDirs("src/androidMain/res")
     sourceSets["main"].resources.srcDirs("src/commonMain/composeResources")
 
-    namespace = "com.mshdabiola.skeletonapp"
+    namespace = "com.mshdabiola.commons"
 
     defaultConfig {
-        applicationId = "com.mshdabiola.skeletonapp"
+        applicationId = "com.mshdabiola.commons"
         versionCode = libs.versions.versionCode.get().toIntOrNull()
         versionName = System.getenv("VERSION_NAME") ?: libs.versions.versionName.get()
 
@@ -220,7 +220,7 @@ android {
 
 compose.desktop {
     application {
-        mainClass = "com.mshdabiola.skeletonapp.MainAppKt"
+        mainClass = "com.mshdabiola.commons.MainAppKt"
 
 
         buildTypes.release.proguard {

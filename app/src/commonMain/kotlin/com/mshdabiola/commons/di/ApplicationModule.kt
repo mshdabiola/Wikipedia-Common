@@ -1,10 +1,10 @@
-package com.mshdabiola.skeletonapp.di
+package com.mshdabiola.commons.di
 
+import com.mshdabiola.commons.MainAppViewModel
 import com.mshdabiola.data.di.dataModule
 import com.mshdabiola.detail.detailModule
 import com.mshdabiola.main.mainModule
 import com.mshdabiola.setting.settingModule
-import com.mshdabiola.skeletonapp.MainAppViewModel
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 

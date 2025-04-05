@@ -19,9 +19,9 @@ import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.unit.dp
 import com.mshdabiola.designsystem.theme.LocalTintTheme
-import hydraulic.modules.designsystem.generated.resources.Res
-import hydraulic.modules.designsystem.generated.resources.icon
 import org.jetbrains.compose.resources.painterResource
+import wikipedia_common.modules.designsystem.generated.resources.Res
+import wikipedia_common.modules.designsystem.generated.resources.icon
 
 /**
  * A wrapper around [AsyncImage] which determines the colorFilter based on the theme
