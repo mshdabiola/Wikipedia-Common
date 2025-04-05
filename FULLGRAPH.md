@@ -1,4 +1,4 @@
-###  Hydraulic Module Graph
+###  Wikipedia-Common Module Graph
 
 ```mermaid
 %%{
