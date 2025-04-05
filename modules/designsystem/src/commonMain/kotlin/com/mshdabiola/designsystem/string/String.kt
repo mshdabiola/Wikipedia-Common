@@ -1,6 +1,9 @@
 package com.mshdabiola.designsystem.string
 
 import androidx.compose.runtime.Composable
+import org.jetbrains.compose.resources.ExperimentalResourceApi
+import org.jetbrains.compose.resources.stringArrayResource
+import org.jetbrains.compose.resources.stringResource
 import wikipedia_common.modules.designsystem.generated.resources.Res
 import wikipedia_common.modules.designsystem.generated.resources.app_name
 import wikipedia_common.modules.designsystem.generated.resources.main_navigator
@@ -10,9 +13,6 @@ import wikipedia_common.modules.designsystem.generated.resources.modules_ui_cbt_
 import wikipedia_common.modules.designsystem.generated.resources.modules_ui_cbt_type
 import wikipedia_common.modules.designsystem.generated.resources.setting_navigator
 import wikipedia_common.modules.designsystem.generated.resources.str_arr
-import org.jetbrains.compose.resources.ExperimentalResourceApi
-import org.jetbrains.compose.resources.stringArrayResource
-import org.jetbrains.compose.resources.stringResource
 
 val appName
     @Composable
