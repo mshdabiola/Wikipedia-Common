@@ -2,7 +2,7 @@
  *abiola 2022
  */
 
-package com.mshdabiola.wikipedia_common.ui
+package com.mshdabiola.commons.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable

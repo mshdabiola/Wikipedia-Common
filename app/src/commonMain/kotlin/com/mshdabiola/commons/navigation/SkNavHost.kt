@@ -2,20 +2,20 @@
  *abiola 2022
  */
 
-package com.mshdabiola.wikipedia_common.navigation
+package com.mshdabiola.commons.navigation
 
 import androidx.compose.animation.ExperimentalSharedTransitionApi
 import androidx.compose.animation.SharedTransitionLayout
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
+import com.mshdabiola.commons.ui.SkAppState
 import com.mshdabiola.detail.navigation.Detail
 import com.mshdabiola.detail.navigation.detailScreen
 import com.mshdabiola.detail.navigation.navigateToDetail
 import com.mshdabiola.main.navigation.Main
 import com.mshdabiola.main.navigation.mainScreen
 import com.mshdabiola.setting.navigation.settingScreen
-import com.mshdabiola.wikipedia_common.ui.SkAppState
 
 @OptIn(ExperimentalSharedTransitionApi::class)
 @Composable

@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "801461677522",
-    "project_id": "wikipedia_common-7ec62",
-    "storage_bucket": "wikipedia_common-7ec62.appspot.com"
+    "project_id": "commons-7ec62",
+    "storage_bucket": "commons-7ec62.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:801461677522:android:63a1c6467747f0a2a3ac0b",
         "android_client_info": {
-          "package_name": "com.mshdabiola.wikipedia_common.play.debug"
+          "package_name": "com.mshdabiola.commons.play.debug"
         }
       },
       "oauth_client": [
@@ -38,7 +38,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:801461677522:android:63a1c6467747f0a2a3ac0b",
         "android_client_info": {
-          "package_name": "com.mshdabiola.wikipedia_common.foss.debug"
+          "package_name": "com.mshdabiola.commons.foss.debug"
         }
       },
       "oauth_client": [
@@ -67,7 +67,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:801461677522:android:63a1c6467747f0a2a3ac0b",
         "android_client_info": {
-          "package_name": "com.mshdabiola.wikipedia_common.play"
+          "package_name": "com.mshdabiola.commons.play"
         }
       },
       "oauth_client": [
@@ -96,7 +96,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:801461677522:android:63a1c6467747f0a2a3ac0b",
         "android_client_info": {
-          "package_name": "com.mshdabiola.wikipedia_common.foss"
+          "package_name": "com.mshdabiola.commons.foss"
         }
       },
       "oauth_client": [
@@ -125,7 +125,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:801461677522:android:63a1c6467747f0a2a3ac0b",
         "android_client_info": {
-          "package_name": "com.mshdabiola.wikipedia_common.play.benchmark"
+          "package_name": "com.mshdabiola.commons.play.benchmark"
         }
       },
       "oauth_client": [
@@ -154,7 +154,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:801461677522:android:63a1c6467747f0a2a3ac0b",
         "android_client_info": {
-          "package_name": "com.mshdabiola.wikipedia_common.foss.benchmark"
+          "package_name": "com.mshdabiola.commons.foss.benchmark"
         }
       },
       "oauth_client": [

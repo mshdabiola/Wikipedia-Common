@@ -1,4 +1,4 @@
-package com.mshdabiola.wikipedia_common
+package com.mshdabiola.commons
 
 import androidx.annotation.StringRes
 import androidx.compose.ui.test.junit4.AndroidComposeTestRule

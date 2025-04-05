@@ -2,14 +2,14 @@
  *abiola 2022
  */
 
-package com.mshdabiola.wikipedia_common
+package com.mshdabiola.commons
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.mshdabiola.commons.MainActivityUiState.Loading
+import com.mshdabiola.commons.MainActivityUiState.Success
 import com.mshdabiola.data.repository.UserDataRepository
 import com.mshdabiola.model.UserData
-import com.mshdabiola.wikipedia_common.MainActivityUiState.Loading
-import com.mshdabiola.wikipedia_common.MainActivityUiState.Success
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map

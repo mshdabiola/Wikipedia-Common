@@ -1,4 +1,4 @@
-package com.mshdabiola.wikipedia_common
+package com.mshdabiola.commons
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -18,10 +18,10 @@ import co.touchlab.kermit.Logger
 import co.touchlab.kermit.koin.KermitKoinLogger
 import co.touchlab.kermit.loggerConfigInit
 import co.touchlab.kermit.platformLogWriter
+import com.mshdabiola.commons.di.appModule
+import com.mshdabiola.commons.ui.SkeletonApp
 import com.mshdabiola.designsystem.drawable.defaultAppIcon
 import com.mshdabiola.designsystem.string.appName
-import com.mshdabiola.wikipedia_common.di.appModule
-import com.mshdabiola.wikipedia_common.ui.SkeletonApp
 import com.mshdabiola.ui.SplashScreen
 import kotlinx.coroutines.delay
 import org.koin.core.context.GlobalContext.startKoin

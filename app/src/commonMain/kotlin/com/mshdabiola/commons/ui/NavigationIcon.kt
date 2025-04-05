@@ -1,4 +1,4 @@
-package com.mshdabiola.wikipedia_common.ui
+package com.mshdabiola.commons.ui
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Domain

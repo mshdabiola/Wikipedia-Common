@@ -1,4 +1,4 @@
-package com.mshdabiola.wikipedia_common
+package com.mshdabiola.commons
 
 import co.touchlab.kermit.DefaultFormatter
 import co.touchlab.kermit.LogWriter
