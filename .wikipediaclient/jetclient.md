@@ -12,10 +12,10 @@ environments = ['Prod', 'Demo']
 ```json5
 {
   globals: {
-    BaseUrl : "{{host}}"
+    BaseUrl : "{{host}}",
   },
   prod: {
-    host : "https://commons.wikimedia.org"
+    host : "https://commons.wikimedia.org/w/api.php"
   },
   demo: {
     host : "https://commons.wikimedia.beta.wmflabs.org"
