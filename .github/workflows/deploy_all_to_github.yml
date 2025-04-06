@@ -55,7 +55,7 @@ jobs:
           sed -i -e '/alias(libs.plugins.firebase./d' build.gradle.kts
 
       - name: Build foss reliant release variant apk
-        run: ./gradlew assembleProdfossReliantRelease
+        run: ./gradlew assembleProdFossReliantRelease
 
       - name: Sign foss reliant APK
         uses: r0adkll/sign-android-release@v1.0.4

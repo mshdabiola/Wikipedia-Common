@@ -42,7 +42,7 @@ jobs:
           sed -i -e '/alias(libs.plugins.firebase./d' build.gradle.kts
 
       - name: Build release variant apk
-        run: ./gradlew assembleProdfossReliantRelease
+        run: ./gradlew assembleProdFossReliantRelease
 
       - name: Sign APK
         uses: r0adkll/sign-android-release@v1.0.4

@@ -124,11 +124,11 @@ jobs:
       # release build
 
       - name: Build all build type and flavor permutations
-        run: ./gradlew assembleDemofossReliant :benchmarks:assembleDemofossReliant
-          -x pixel6Api33DemofossReliantNonMinifiedReleaseAndroidTest
-          -x pixel6Api33DemofossReliantNonMinifiedBenchmarkAndroidTest
-          -x collectDemofossReliantNonMinifiedReleaseBaselineProfile
-          -x collectDemofossReliantNonMinifiedBenchmarkBaselineProfile
+        run: ./gradlew assembleDemoFossReliant :benchmarks:assembleDemoFossReliant
+          -x pixel6Api33DemoFossReliantNonMinifiedReleaseAndroidTest
+          -x pixel6Api33DemoFossReliantNonMinifiedBenchmarkAndroidTest
+          -x collectDemoFossReliantNonMinifiedReleaseBaselineProfile
+          -x collectDemoFossReliantNonMinifiedBenchmarkBaselineProfile
 
       - name: Upload build outputs (APKs)
         uses: actions/upload-artifact@v4
