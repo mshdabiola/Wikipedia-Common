@@ -33,7 +33,7 @@ jobs:
           build-scan-terms-of-use-url: "https://gradle.com/terms-of-service"
           build-scan-terms-of-use-agree: "yes"
 
-      - name: Build  google play release variant apk
+      - name: Build production google play release variant apk
         run: ./gradlew assembleProdGooglePlayRelease
 
       - name: Sign google play APK
@@ -54,7 +54,7 @@ jobs:
           sed -i -e '/libs.firebase/d' build-logic/convention/build.gradle.kts
           sed -i -e '/alias(libs.plugins.firebase./d' build.gradle.kts
 
-      - name: Build foss reliant release variant apk
+      - name: Build production foss reliant release variant apk
         run: ./gradlew assembleProdFossReliantRelease
 
       - name: Sign foss reliant APK
