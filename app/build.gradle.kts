@@ -254,7 +254,7 @@ baselineProfile {
 }
 
 dependencyGuard {
-    configuration("fossReliantReleaseRuntimeClasspath")
-    configuration("googlePlayDebugRuntimeClasspath")
+    configuration("demoFossReliantReleaseRuntimeClasspath")
+    configuration("demoGooglePlayDebugRuntimeClasspath")
 
 }
