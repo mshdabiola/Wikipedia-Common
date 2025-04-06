@@ -1,9 +1,9 @@
 ```toml
-name = 'GetMediaListFormSearch'
+name = 'GetMediaListFromGeoSearch'
 method = 'GET'
-url = '{{BaseUrl}}?action=query&format=json&formatversion=2&generator=allimages&gaisort=timestamp&gaidir=older&prop=imageinfo|coordinates&iiprop=url|extmetadata|user&iiurlwidth=640&iiextmetadatafilter=DateTime|Categories|GPSLatitude|GPSLongitude|ImageDescription|DateTimeOriginal|Artist|LicenseShortName|LicenseUrl&generator=geosearch&ggsnamespace=6&ggscoord=78.899,33.3222&ggslimit=4&ggsradius=45'
-sortWeight = 6000000
-id = '7be0e4f2-063f-4d12-981e-17d77ad5b69b'
+url = '{{BaseUrl}}?action=query&format=json&formatversion=2&generator=allimages&gaisort=timestamp&gaidir=older&prop=imageinfo|coordinates&iiprop=url|extmetadata|user&iiurlwidth=640&iiextmetadatafilter=DateTime|Categories|GPSLatitude|GPSLongitude|ImageDescription|DateTimeOriginal|Artist|LicenseShortName|LicenseUrl&gaiuser=Mshdabiola&gcmlimit=4'
+sortWeight = 7000000
+id = '74e5f948-4a81-4a48-9edf-72784e87ff2a'
 
 [[queryParams]]
 key = 'action'
@@ -46,26 +46,14 @@ key = 'iiextmetadatafilter'
 value = 'DateTime|Categories|GPSLatitude|GPSLongitude|ImageDescription|DateTimeOriginal|Artist|LicenseShortName|LicenseUrl'
 
 [[queryParams]]
-key = 'generator'
-value = 'geosearch'
+key = 'gaiuser'
+value = 'Mshdabiola'
 
 [[queryParams]]
-key = 'ggsnamespace'
-value = '6'
+key = 'gcmlimit'
+value = '4'
 
 [[queryParams]]
 key = 'continuation'
 disabled = true
-
-[[queryParams]]
-key = 'ggscoord'
-value = '78.899,33.3222'
-
-[[queryParams]]
-key = 'ggslimit'
-value = '4'
-
-[[queryParams]]
-key = 'ggsradius'
-value = '45'
 ```
