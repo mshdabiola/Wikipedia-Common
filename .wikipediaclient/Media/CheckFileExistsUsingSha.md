@@ -1,9 +1,9 @@
 ```toml
-name = 'CheckPageExistUsingTitle'
+name = 'CheckFileExistsUsingSha'
 method = 'GET'
-url = '{{BaseUrl}}?action=query&format=json&formatversion=2&list=allimages&aisha1=1s2s22s2s33'
-sortWeight = 2000000
-id = '9c2bd22a-033d-48a7-916d-c2c795491d5f'
+url = '{{BaseUrl}}?action=query&format=json&formatversion=2&list=allimages&aisha1=5453e55e'
+sortWeight = 3000000
+id = '1c15d93c-4e58-44f1-9dd1-6b287f2ff191'
 
 [[queryParams]]
 key = 'action'
@@ -23,5 +23,5 @@ value = 'allimages'
 
 [[queryParams]]
 key = 'aisha1'
-value = '1s2s22s2s33'
+value = '5453e55e'
 ```
