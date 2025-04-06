@@ -1,7 +1,7 @@
 ```toml
 name = 'GetMediaListForUser'
 method = 'GET'
-url = '{{BaseUrl}}?action=query&format=json&formatversion=2&generator=allimages&gaisort=timestamp&gaidir=older&prop=imageinfo|coordinates&iiprop=url|extmetadata|user&iiurlwidth=640&iiextmetadatafilter=DateTime|Categories|GPSLatitude|GPSLongitude|ImageDescription|DateTimeOriginal|Artist|LicenseShortName|LicenseUrl&gaiuser=Mshdabiola&gcmlimit=4'
+url = '{{BaseUrl}}?action=query&format=json&formatversion=2&prop=imageinfo|coordinates&iiprop=url|extmetadata|user&iiurlwidth=640&iiextmetadatafilter=DateTime|Categories|GPSLatitude|GPSLongitude|ImageDescription|DateTimeOriginal|Artist|LicenseShortName|LicenseUrl&generator=search&gsrwhat=text&gsrnamespace=6&gsrsearch=Nigeria&gsrlimit=4&gsroffset=0'
 sortWeight = 5000000
 id = '7d0a5dac-9fe8-4cca-8da0-dec6183e07fa'
 
@@ -16,18 +16,6 @@ value = 'json'
 [[queryParams]]
 key = 'formatversion'
 value = '2'
-
-[[queryParams]]
-key = 'generator'
-value = 'allimages'
-
-[[queryParams]]
-key = 'gaisort'
-value = 'timestamp'
-
-[[queryParams]]
-key = 'gaidir'
-value = 'older'
 
 [[queryParams]]
 key = 'prop'
@@ -46,14 +34,30 @@ key = 'iiextmetadatafilter'
 value = 'DateTime|Categories|GPSLatitude|GPSLongitude|ImageDescription|DateTimeOriginal|Artist|LicenseShortName|LicenseUrl'
 
 [[queryParams]]
-key = 'gaiuser'
-value = 'Mshdabiola'
+key = 'continuation'
+disabled = true
 
 [[queryParams]]
-key = 'gcmlimit'
+key = 'generator'
+value = 'search'
+
+[[queryParams]]
+key = 'gsrwhat'
+value = 'text'
+
+[[queryParams]]
+key = 'gsrnamespace'
+value = '6'
+
+[[queryParams]]
+key = 'gsrsearch'
+value = 'Nigeria'
+
+[[queryParams]]
+key = 'gsrlimit'
 value = '4'
 
 [[queryParams]]
-key = 'continuation'
-disabled = true
+key = 'gsroffset'
+value = '0'
 ```
