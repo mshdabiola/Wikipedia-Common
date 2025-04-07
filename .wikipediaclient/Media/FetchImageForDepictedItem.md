@@ -1,7 +1,7 @@
 ```toml
 name = 'FetchImageForDepictedItem'
 method = 'GET'
-url = '{{BaseUrl}}?action=query&format=json&generator=search&gsrnamespace=6&prop=imageinfo%7Ccoordinates&iiprop=url%7Cextmetadata%7Cuser&iiurlwidth=640&iiextmetadatafilter=DateTime%7CCategories%7CGPSLatitude%7CGPSLongitude%7CImageDescription%7CDateTimeOriginal%7CArtist%7CLicenseShortName%7CLicenseUrl&gsrsearch=Nigeria&gsrlimit=3&gsroffset=5'
+url = '{{BaseUrl}}?action=query&format=json&generator=search&gsrnamespace=6&prop=imageinfo%7Ccoordinates&iiprop=url%7Cextmetadata%7Cuser&iiurlwidth=640&iiextmetadatafilter=DateTime%7CCategories%7CGPSLatitude%7CGPSLongitude%7CImageDescription%7CDateTimeOriginal%7CArtist%7CLicenseShortName%7CLicenseUrl&gsrsearch=Nigeria&gsrlimit=5&gsroffset=0'
 sortWeight = 1000000
 id = '79375067-e8fa-4aa1-9d05-b4d276fee48d'
 
@@ -43,9 +43,9 @@ value = 'Nigeria'
 
 [[queryParams]]
 key = 'gsrlimit'
-value = '3'
+value = '5'
 
 [[queryParams]]
 key = 'gsroffset'
-value = '5'
+value = '0'
 ```

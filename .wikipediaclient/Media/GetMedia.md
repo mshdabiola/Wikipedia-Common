@@ -1,7 +1,7 @@
 ```toml
 name = 'GetMedia'
 method = 'GET'
-url = '{{BaseUrl}}?action=query&format=json&formatversion=2&clprop=hidden&prop=categories|imageinfo&iiprop=url|extmetadata|user&iiurlwidth=640&iiextmetadatafilter=DateTime|GPSLatitude|GPSLongitude|ImageDescription|DateTimeOriginal|Artist|LicenseShortName|LicenseUrl&titles=test'
+url = '{{BaseUrl}}?action=query&format=json&formatversion=2&clprop=hidden&prop=categories|imageinfo&iiprop=url|extmetadata|user&iiurlwidth=640&iiextmetadatafilter=DateTime|GPSLatitude|GPSLongitude|ImageDescription|DateTimeOriginal|Artist|LicenseShortName|LicenseUrl&titles=File:Wiki Conference Nigeria 11.jpg'
 sortWeight = 8000000
 id = 'b04716f5-5f04-4170-8c1d-ed2339f841c8'
 
@@ -43,5 +43,5 @@ disabled = true
 
 [[queryParams]]
 key = 'titles'
-value = 'test'
+value = 'File:Wiki Conference Nigeria 11.jpg'
 ```

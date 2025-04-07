@@ -1,7 +1,7 @@
 ```toml
 name = 'CheckPageExistUsingTitle'
 method = 'GET'
-url = '{{BaseUrl}}?action=query&format=json&formatversion=2&list=allimages&aisha1=1s2s22s2s33'
+url = '{{BaseUrl}}?action=query&format=json&formatversion=2&titles=File:Wiki Conference Nigeria 11.jpg'
 sortWeight = 2000000
 id = '9c2bd22a-033d-48a7-916d-c2c795491d5f'
 
@@ -18,10 +18,6 @@ key = 'formatversion'
 value = '2'
 
 [[queryParams]]
-key = 'list'
-value = 'allimages'
-
-[[queryParams]]
-key = 'aisha1'
-value = '1s2s22s2s33'
+key = 'titles'
+value = 'File:Wiki Conference Nigeria 11.jpg'
 ```

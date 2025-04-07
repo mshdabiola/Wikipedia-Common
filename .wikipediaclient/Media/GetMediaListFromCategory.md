@@ -1,7 +1,7 @@
 ```toml
 name = 'GetMediaListFromCategory'
 method = 'GET'
-url = '{{BaseUrl}}?action=query&format=json&formatversion=2&generator=categorymembers&gcmtype=file&gcmsort=timestamp&gcmdir=desc&prop=imageinfo|coordinates&iiprop=url|extmetadata|user&iiurlwidth=640&iiextmetadatafilter=DateTime|Categories|GPSLatitude|GPSLongitude|ImageDescription|DateTimeOriginal|Artist|LicenseShortName|LicenseUrl&gcmtitle=Country&gcmlimit=4&continuation'
+url = '{{BaseUrl}}?action=query&format=json&formatversion=2&generator=categorymembers&gcmtype=file&gcmsort=timestamp&gcmdir=desc&prop=imageinfo|coordinates&iiprop=url|extmetadata|user&iiurlwidth=640&iiextmetadatafilter=DateTime|Categories|GPSLatitude|GPSLongitude|ImageDescription|DateTimeOriginal|Artist|LicenseShortName|LicenseUrl&gcmtitle=Category:Abuja&gcmlimit=4&continuation'
 sortWeight = 4000000
 id = '0c51f9a4-54c0-4818-8f3a-0b17344a5b80'
 
@@ -51,7 +51,7 @@ value = 'DateTime|Categories|GPSLatitude|GPSLongitude|ImageDescription|DateTimeO
 
 [[queryParams]]
 key = 'gcmtitle'
-value = 'Country'
+value = 'Category:Abuja'
 
 [[queryParams]]
 key = 'gcmlimit'
