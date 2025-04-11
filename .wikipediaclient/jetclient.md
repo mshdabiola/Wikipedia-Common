@@ -13,6 +13,7 @@ environments = ['Prod', 'Demo']
 {
   globals: {
     BaseUrl : "{{host}}",
+    WikiDataUrl : "https://www.wikidata.org"
   },
   prod: {
     host : "https://commons.wikimedia.org/w/api.php"
