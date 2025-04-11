@@ -13,7 +13,9 @@ environments = ['Prod', 'Demo']
 {
   globals: {
     BaseUrl : "{{host}}",
-    WikiDataUrl : "https://www.wikidata.org"
+    WikiDataUrl : "https://www.wikidata.org",
+    MW_API_PREFIX:  "w/api.php?format=json&formatversion=2&errorformat=plaintext&",
+    WikiDataUrlWithData : "{{WikiDataUrl}}/{{MW_API_PREFIX}}"
   },
   prod: {
     host : "https://commons.wikimedia.org/w/api.php"
