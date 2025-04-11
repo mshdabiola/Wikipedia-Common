@@ -13,8 +13,8 @@ environments = ['Prod', 'Demo']
 {
   globals: {
     BaseUrl : "{{host}}",
-    WikiDataUrl : "https://www.wikidata.org",
-    MW_API_PREFIX:  "w/api.php?format=json&formatversion=2&errorformat=plaintext&",
+    WikiDataUrl : "https://www.wikidata.orgw/api.php",
+    MW_API_PREFIX:  "?format=json&formatversion=2&errorformat=plaintext&",
     WikiDataUrlWithData : "{{WikiDataUrl}}/{{MW_API_PREFIX}}"
   },
   prod: {
