@@ -197,7 +197,6 @@ object AppStrings {
         @Composable
         get() = stringResource(Res.string.login)
 
-
     val register: String
         @Composable
         get() = stringResource(Res.string.register)
@@ -546,7 +545,6 @@ object AppStrings {
         @Composable
         get() = stringResource(Res.string.accurate_categories)
 
-
     val correct: String
         @Composable
         get() = stringResource(Res.string.correct)
@@ -626,7 +624,6 @@ object AppStrings {
     val locationLabel: String
         @Composable
         get() = stringResource(Res.string.location_label)
-
 
     val addOtherLanguage: String
         @Composable
