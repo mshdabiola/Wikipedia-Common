@@ -2,7 +2,7 @@
 
 
     <string name="app_name">Wikipedia-Common App</string>
-    <string name="add_image">Add New Images</string>
+<!--    <string name="add_image">Add New Images</string>-->
     <string name="main">Main</string>
 
     <string name="hello">😊 Hello world!</string>
