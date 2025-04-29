@@ -49,7 +49,7 @@ import com.mshdabiola.commons.navigation.SkNavHost
 import com.mshdabiola.designsystem.component.SkBackground
 import com.mshdabiola.designsystem.component.SkGradientBackground
 import com.mshdabiola.designsystem.component.SkTopAppBar
-import com.mshdabiola.designsystem.icon.SkIcons
+import com.mshdabiola.designsystem.icon.WcIcons
 import com.mshdabiola.designsystem.theme.GradientColors
 import com.mshdabiola.designsystem.theme.LocalGradientColors
 import com.mshdabiola.designsystem.theme.SkTheme
@@ -125,9 +125,9 @@ fun SkeletonApp() {
                                         if (appState.isMain) {
                                             SkTopAppBar(
                                                 titleRes = "Note",
-                                                navigationIcon = SkIcons.Person,
+                                                navigationIcon = WcIcons.Person,
                                                 navigationIconContentDescription = "",
-                                                actionIcon = SkIcons.Settings,
+                                                actionIcon = WcIcons.Settings,
                                                 actionIconContentDescription = "se",
                                                 onActionClick = { appState.navController.navigateToSetting() },
                                             )
@@ -150,7 +150,7 @@ fun SkeletonApp() {
                                             text = { Text("Add Note") },
                                             icon = {
                                                 Icon(
-                                                    SkIcons.Add,
+                                                    WcIcons.Add,
                                                     contentDescription = "add",
                                                 )
                                             },
