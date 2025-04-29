@@ -10,17 +10,17 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.mshdabiola.designsystem.component.SkBackground
-import com.mshdabiola.designsystem.component.SkButton
+import com.mshdabiola.designsystem.component.WcBackground
+import com.mshdabiola.designsystem.component.WcButton
 import com.mshdabiola.designsystem.icon.WcIcons
-import com.mshdabiola.designsystem.theme.SkTheme
+import com.mshdabiola.designsystem.theme.WcTheme
 
 @ThemePreviews
 @Composable
 fun ButtonPreview() {
-    SkTheme {
-        SkBackground(modifier = Modifier.size(150.dp, 50.dp)) {
-            SkButton(onClick = {}, text = { Text("Test button") })
+    WcTheme {
+        WcBackground(modifier = Modifier.size(150.dp, 50.dp)) {
+            WcButton(onClick = {}, text = { Text("Test button") })
         }
     }
 }
@@ -28,9 +28,9 @@ fun ButtonPreview() {
 @ThemePreviews
 @Composable
 fun ButtonPreview2() {
-    SkTheme {
-        SkBackground(modifier = Modifier.size(150.dp, 50.dp)) {
-            SkButton(onClick = {}, text = { Text("Test button") })
+    WcTheme {
+        WcBackground(modifier = Modifier.size(150.dp, 50.dp)) {
+            WcButton(onClick = {}, text = { Text("Test button") })
         }
     }
 }
@@ -38,9 +38,9 @@ fun ButtonPreview2() {
 @ThemePreviews
 @Composable
 fun ButtonLeadingIconPreview() {
-    SkTheme {
-        SkBackground(modifier = Modifier.size(150.dp, 50.dp)) {
-            SkButton(
+    WcTheme {
+        WcBackground(modifier = Modifier.size(150.dp, 50.dp)) {
+            WcButton(
                 onClick = {},
                 text = { Text("Test button") },
                 leadingIcon = { Icon(imageVector = WcIcons.Add, contentDescription = null) },

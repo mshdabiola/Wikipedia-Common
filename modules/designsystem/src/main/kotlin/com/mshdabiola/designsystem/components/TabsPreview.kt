@@ -7,18 +7,18 @@ package com.mshdabiola.designsystem.components
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.unit.dp
-import com.mshdabiola.designsystem.component.SkTab
-import com.mshdabiola.designsystem.component.SkTabRow
-import com.mshdabiola.designsystem.theme.SkTheme
+import com.mshdabiola.designsystem.component.WcTab
+import com.mshdabiola.designsystem.component.WcTabRow
+import com.mshdabiola.designsystem.theme.WcTheme
 
 @ThemePreviews
 @Composable
 fun TabsPreview() {
-    SkTheme {
+    WcTheme {
         val titles = listOf("Topics", "People")
-        SkTabRow(selectedTabIndex = 0) {
+        WcTabRow(selectedTabIndex = 0) {
             titles.forEachIndexed { index, title ->
-                SkTab(
+                WcTab(
                     selected = index == 0,
                     onClick = { },
                     text = { Text(text = title) },
