@@ -9,7 +9,7 @@ import androidx.compose.animation.SharedTransitionLayout
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
-import com.mshdabiola.commons.ui.SkAppState
+import com.mshdabiola.commons.ui.WcAppState
 import com.mshdabiola.detail.navigation.Detail
 import com.mshdabiola.detail.navigation.detailScreen
 import com.mshdabiola.detail.navigation.navigateToDetail
@@ -20,7 +20,7 @@ import com.mshdabiola.setting.navigation.settingScreen
 @OptIn(ExperimentalSharedTransitionApi::class)
 @Composable
 fun SkNavHost(
-    appState: SkAppState,
+    appState: WcAppState,
     onShowSnackbar: suspend (String, String?) -> Boolean = { _, _ -> false },
     modifier: Modifier = Modifier,
 ) {

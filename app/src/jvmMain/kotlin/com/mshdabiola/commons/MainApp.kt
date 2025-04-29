@@ -19,7 +19,7 @@ import co.touchlab.kermit.koin.KermitKoinLogger
 import co.touchlab.kermit.loggerConfigInit
 import co.touchlab.kermit.platformLogWriter
 import com.mshdabiola.commons.di.appModule
-import com.mshdabiola.commons.ui.SkeletonApp
+import com.mshdabiola.commons.ui.WikipediaCommonsApp
 import com.mshdabiola.designsystem.drawable.defaultAppIcon
 import com.mshdabiola.designsystem.string.appName
 import com.mshdabiola.ui.SplashScreen
@@ -49,7 +49,7 @@ fun mainApp() {
                 show.value = false
             }
             Box(Modifier.fillMaxSize()) {
-                SkeletonApp()
+                WikipediaCommonsApp()
                 if (show.value) {
                     SplashScreen()
                 }
