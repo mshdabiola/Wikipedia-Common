@@ -14,7 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.mshdabiola.designsystem.icon.SkIcons
+import com.mshdabiola.designsystem.icon.WcIcons
 
 /**
  * Now in Android filter chip with included leading checked icon as well as text content slot.
@@ -47,7 +47,7 @@ fun SkFilterChip(
         leadingIcon = if (selected) {
             {
                 Icon(
-                    imageVector = SkIcons.Check,
+                    imageVector = WcIcons.Check,
                     contentDescription = null,
                 )
             }

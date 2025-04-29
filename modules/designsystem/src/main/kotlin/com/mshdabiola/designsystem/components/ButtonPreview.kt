@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.mshdabiola.designsystem.component.SkBackground
 import com.mshdabiola.designsystem.component.SkButton
-import com.mshdabiola.designsystem.icon.SkIcons
+import com.mshdabiola.designsystem.icon.WcIcons
 import com.mshdabiola.designsystem.theme.SkTheme
 
 @ThemePreviews
@@ -43,7 +43,7 @@ fun ButtonLeadingIconPreview() {
             SkButton(
                 onClick = {},
                 text = { Text("Test button") },
-                leadingIcon = { Icon(imageVector = SkIcons.Add, contentDescription = null) },
+                leadingIcon = { Icon(imageVector = WcIcons.Add, contentDescription = null) },
             )
         }
     }

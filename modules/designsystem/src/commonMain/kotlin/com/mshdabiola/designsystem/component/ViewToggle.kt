@@ -16,7 +16,7 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.mshdabiola.designsystem.icon.SkIcons
+import com.mshdabiola.designsystem.icon.WcIcons
 
 /**
  * Now in Android view toggle button with included trailing icon as well as compact and expanded
@@ -52,7 +52,7 @@ fun SkViewToggleButton(
             text = if (expanded) expandedText else compactText,
             trailingIcon = {
                 Icon(
-                    imageVector = if (expanded) SkIcons.ViewDay else SkIcons.ShortText,
+                    imageVector = if (expanded) WcIcons.ViewDay else WcIcons.ShortText,
                     contentDescription = null,
                 )
             },
