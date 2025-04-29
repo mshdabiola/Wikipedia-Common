@@ -26,7 +26,6 @@ import androidx.compose.material.icons.rounded.Explore
 import androidx.compose.material.icons.rounded.Grid3x3
 import androidx.compose.material.icons.rounded.Info
 import androidx.compose.material.icons.rounded.Leaderboard
-import androidx.compose.material.icons.rounded.LinkedCamera
 import androidx.compose.material.icons.rounded.LocationOn
 import androidx.compose.material.icons.rounded.Logout
 import androidx.compose.material.icons.rounded.Mail
@@ -40,9 +39,6 @@ import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.material.icons.rounded.Upcoming
 import androidx.compose.material.icons.rounded.ViewDay
 import androidx.compose.material.icons.rounded.Wallpaper
-import org.jetbrains.compose.resources.vectorResource
-import wikipedia_common.modules.designsystem.generated.resources.Res
-import wikipedia_common.modules.designsystem.generated.resources.logo
 
 object WcIcons {
     val Add = Icons.Rounded.Add
