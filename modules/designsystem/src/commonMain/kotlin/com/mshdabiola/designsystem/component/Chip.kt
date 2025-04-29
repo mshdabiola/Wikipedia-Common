@@ -27,7 +27,7 @@ import com.mshdabiola.designsystem.icon.WcIcons
  * @param label The text label content.
  */
 @Composable
-fun SkFilterChip(
+fun WcFilterChip(
     selected: Boolean,
     onSelectedChange: (Boolean) -> Unit,
     modifier: Modifier = Modifier,
@@ -61,28 +61,28 @@ fun SkFilterChip(
             borderColor = MaterialTheme.colorScheme.onBackground,
             selectedBorderColor = MaterialTheme.colorScheme.onBackground,
             disabledBorderColor = MaterialTheme.colorScheme.onBackground.copy(
-                alpha = SkChipDefaults.DISABLED_CHIP_CONTENT_ALPHA,
+                alpha = WcChipDefaults.DISABLED_CHIP_CONTENT_ALPHA,
             ),
             disabledSelectedBorderColor = MaterialTheme.colorScheme.onBackground.copy(
-                alpha = SkChipDefaults.DISABLED_CHIP_CONTENT_ALPHA,
+                alpha = WcChipDefaults.DISABLED_CHIP_CONTENT_ALPHA,
             ),
-            selectedBorderWidth = SkChipDefaults.ChipBorderWidth,
+            selectedBorderWidth = WcChipDefaults.ChipBorderWidth,
         ),
         colors = FilterChipDefaults.filterChipColors(
             labelColor = MaterialTheme.colorScheme.onBackground,
             iconColor = MaterialTheme.colorScheme.onBackground,
             disabledContainerColor = if (selected) {
                 MaterialTheme.colorScheme.onBackground.copy(
-                    alpha = SkChipDefaults.DISABLED_CHIP_CONTAINER_ALPHA,
+                    alpha = WcChipDefaults.DISABLED_CHIP_CONTAINER_ALPHA,
                 )
             } else {
                 Color.Transparent
             },
             disabledLabelColor = MaterialTheme.colorScheme.onBackground.copy(
-                alpha = SkChipDefaults.DISABLED_CHIP_CONTENT_ALPHA,
+                alpha = WcChipDefaults.DISABLED_CHIP_CONTENT_ALPHA,
             ),
             disabledLeadingIconColor = MaterialTheme.colorScheme.onBackground.copy(
-                alpha = SkChipDefaults.DISABLED_CHIP_CONTENT_ALPHA,
+                alpha = WcChipDefaults.DISABLED_CHIP_CONTENT_ALPHA,
             ),
             selectedContainerColor = MaterialTheme.colorScheme.primaryContainer,
             selectedLabelColor = MaterialTheme.colorScheme.onBackground,
@@ -91,7 +91,7 @@ fun SkFilterChip(
     )
 }
 
-object SkChipDefaults {
+object WcChipDefaults {
     // TODO: File bug
     // FilterChip default values aren't exposed via FilterChipDefaults
     const val DISABLED_CHIP_CONTAINER_ALPHA = 0.12f

@@ -31,7 +31,7 @@ import com.mshdabiola.designsystem.icon.WcIcons
  * @param expandedText The text label content to show in compact mode.
  */
 @Composable
-fun SkViewToggleButton(
+fun WcViewToggleButton(
     expanded: Boolean,
     onExpandedChange: (Boolean) -> Unit,
     modifier: Modifier = Modifier,
@@ -46,9 +46,9 @@ fun SkViewToggleButton(
         colors = ButtonDefaults.textButtonColors(
             contentColor = MaterialTheme.colorScheme.onBackground,
         ),
-        contentPadding = SkViewToggleDefaults.ViewToggleButtonContentPadding,
+        contentPadding = WcViewToggleDefaults.ViewToggleButtonContentPadding,
     ) {
-        SkViewToggleButtonContent(
+        WcViewToggleButtonContent(
             text = if (expanded) expandedText else compactText,
             trailingIcon = {
                 Icon(
@@ -68,7 +68,7 @@ fun SkViewToggleButton(
  * @param trailingIcon The button trailing icon content. Default is `null` for no trailing icon.
  */
 @Composable
-private fun SkViewToggleButtonContent(
+private fun WcViewToggleButtonContent(
     text: @Composable () -> Unit,
     trailingIcon: @Composable (() -> Unit)? = null,
 ) {
@@ -96,7 +96,7 @@ private fun SkViewToggleButtonContent(
 /**
  * Now in Android view toggle default values.
  */
-object SkViewToggleDefaults {
+object WcViewToggleDefaults {
     // TODO: File bug
     // Various default button padding values aren't exposed via ButtonDefaults
     val ViewToggleButtonContentPadding =

@@ -47,7 +47,7 @@ import androidx.compose.ui.unit.dp
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun SkTextField(
+fun WcTextField(
     modifier: Modifier = Modifier,
     state: TextFieldState,
     placeholder: String? = null,
