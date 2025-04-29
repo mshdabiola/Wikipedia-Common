@@ -21,8 +21,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.input.ImeAction
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.mshdabiola.designsystem.component.SkTextField
-import com.mshdabiola.designsystem.component.SkTopAppBar
+import com.mshdabiola.designsystem.component.WcTextField
+import com.mshdabiola.designsystem.component.WcTopAppBar
 import com.mshdabiola.designsystem.icon.WcIcons
 import com.mshdabiola.ui.TrackScreenViewEvent
 import com.mshdabiola.ui.Waiting
@@ -113,7 +113,7 @@ internal fun MainContent(
                 animatedVisibilityScope = animatedContentScope,
             ),
         ) {
-            SkTopAppBar(
+            WcTopAppBar(
                 titleRes = "Note",
                 navigationIcon = WcIcons.ArrowBack,
                 navigationIconContentDescription = "",
@@ -122,7 +122,7 @@ internal fun MainContent(
                 onActionClick = { onDelete() },
                 onNavigationClick = { onBack() },
             )
-            SkTextField(
+            WcTextField(
                 modifier = Modifier
                     .fillMaxWidth()
                     .testTag("detail:title"),
@@ -131,7 +131,7 @@ internal fun MainContent(
                 maxNum = TextFieldLineLimits.SingleLine,
                 imeAction = ImeAction.Next,
             )
-            SkTextField(
+            WcTextField(
                 modifier = Modifier
                     .fillMaxWidth()
                     .testTag("detail:content")
