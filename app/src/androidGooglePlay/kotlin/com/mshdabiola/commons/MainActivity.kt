@@ -23,7 +23,7 @@ import com.google.firebase.Firebase
 import com.google.firebase.messaging.FirebaseMessaging
 import com.google.firebase.remoteconfig.remoteConfig
 import com.google.firebase.remoteconfig.remoteConfigSettings
-import com.mshdabiola.commons.ui.SkeletonApp
+import com.mshdabiola.commons.ui.WikipediaCommonsApp
 import com.mshdabiola.commons.ui.shouldUseDarkTheme
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.onEach
@@ -135,7 +135,7 @@ class MainActivity : ComponentActivity() {
                 onDispose {}
             }
 
-            SkeletonApp()
+            WikipediaCommonsApp()
         }
     }
 }

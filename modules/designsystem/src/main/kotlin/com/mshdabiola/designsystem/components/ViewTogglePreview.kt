@@ -8,15 +8,15 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.mshdabiola.designsystem.component.SkViewToggleButton
-import com.mshdabiola.designsystem.theme.SkTheme
+import com.mshdabiola.designsystem.component.WcViewToggleButton
+import com.mshdabiola.designsystem.theme.WcTheme
 
 @ThemePreviews
 @Composable
 fun ViewTogglePreviewExpanded() {
-    SkTheme {
+    WcTheme {
         Surface {
-            SkViewToggleButton(
+            WcViewToggleButton(
                 expanded = true,
                 onExpandedChange = { },
                 compactText = { Text(text = "Compact view") },
@@ -29,9 +29,9 @@ fun ViewTogglePreviewExpanded() {
 @Preview
 @Composable
 fun ViewTogglePreviewCompact() {
-    SkTheme {
+    WcTheme {
         Surface {
-            SkViewToggleButton(
+            WcViewToggleButton(
                 expanded = false,
                 onExpandedChange = { },
                 compactText = { Text(text = "Compact view") },

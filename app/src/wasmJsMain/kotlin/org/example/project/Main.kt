@@ -12,7 +12,7 @@ import co.touchlab.kermit.Logger
 import co.touchlab.kermit.loggerConfigInit
 import co.touchlab.kermit.platformLogWriter
 import com.mshdabiola.commons.di.appModule
-import com.mshdabiola.commons.ui.SkeletonApp
+import com.mshdabiola.commons.ui.WikipediaCommonsApp
 import com.mshdabiola.ui.SplashScreen
 import kotlinx.browser.document
 import kotlinx.coroutines.delay
@@ -30,7 +30,7 @@ fun mainApp() {
             show.value = false
         }
         Box(Modifier.fillMaxSize()) {
-            SkeletonApp()
+            WikipediaCommonsApp()
             if (show.value) {
                 SplashScreen()
             }

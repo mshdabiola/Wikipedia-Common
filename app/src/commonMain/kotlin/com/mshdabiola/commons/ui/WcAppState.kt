@@ -20,17 +20,17 @@ import com.mshdabiola.main.navigation.Main
 import kotlinx.coroutines.CoroutineScope
 
 @Composable
-fun rememberSkAppState(
+fun rememberWcAppState(
     windowSizeClass: WindowSizeClass,
     coroutineScope: CoroutineScope = rememberCoroutineScope(),
     navController: NavHostController = rememberNavController(),
-): SkAppState {
+): WcAppState {
     return remember(
         navController,
         coroutineScope,
         windowSizeClass,
     ) {
-        SkAppState(
+        WcAppState(
             navController,
             coroutineScope,
             windowSizeClass,
@@ -39,7 +39,7 @@ fun rememberSkAppState(
 }
 
 @Stable
-class SkAppState(
+class WcAppState(
     val navController: NavHostController,
     val coroutineScope: CoroutineScope,
     val windowSizeClass: WindowSizeClass,

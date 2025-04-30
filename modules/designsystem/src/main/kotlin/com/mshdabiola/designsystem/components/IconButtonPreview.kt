@@ -6,26 +6,26 @@ package com.mshdabiola.designsystem.components
 
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
-import com.mshdabiola.designsystem.component.SkIconToggleButton
-import com.mshdabiola.designsystem.icon.SkIcons
-import com.mshdabiola.designsystem.theme.SkTheme
+import com.mshdabiola.designsystem.component.WcIconToggleButton
+import com.mshdabiola.designsystem.icon.WcIcons
+import com.mshdabiola.designsystem.theme.WcTheme
 
 @ThemePreviews
 @Composable
 fun IconButtonPreview() {
-    SkTheme {
-        SkIconToggleButton(
+    WcTheme {
+        WcIconToggleButton(
             checked = true,
             onCheckedChange = { },
             icon = {
                 Icon(
-                    imageVector = SkIcons.BookmarkBorder,
+                    imageVector = WcIcons.BookmarkBorder,
                     contentDescription = null,
                 )
             },
             checkedIcon = {
                 Icon(
-                    imageVector = SkIcons.Bookmark,
+                    imageVector = WcIcons.Bookmark,
                     contentDescription = null,
                 )
             },
@@ -36,19 +36,19 @@ fun IconButtonPreview() {
 @ThemePreviews
 @Composable
 fun IconButtonPreviewUnchecked() {
-    SkTheme {
-        SkIconToggleButton(
+    WcTheme {
+        WcIconToggleButton(
             checked = false,
             onCheckedChange = { },
             icon = {
                 Icon(
-                    imageVector = SkIcons.BookmarkBorder,
+                    imageVector = WcIcons.BookmarkBorder,
                     contentDescription = null,
                 )
             },
             checkedIcon = {
                 Icon(
-                    imageVector = SkIcons.Bookmark,
+                    imageVector = WcIcons.Bookmark,
                     contentDescription = null,
                 )
             },

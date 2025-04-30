@@ -16,7 +16,7 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.mshdabiola.designsystem.icon.SkIcons
+import com.mshdabiola.designsystem.icon.WcIcons
 
 /**
  * Now in Android view toggle button with included trailing icon as well as compact and expanded
@@ -31,7 +31,7 @@ import com.mshdabiola.designsystem.icon.SkIcons
  * @param expandedText The text label content to show in compact mode.
  */
 @Composable
-fun SkViewToggleButton(
+fun WcViewToggleButton(
     expanded: Boolean,
     onExpandedChange: (Boolean) -> Unit,
     modifier: Modifier = Modifier,
@@ -46,13 +46,13 @@ fun SkViewToggleButton(
         colors = ButtonDefaults.textButtonColors(
             contentColor = MaterialTheme.colorScheme.onBackground,
         ),
-        contentPadding = SkViewToggleDefaults.ViewToggleButtonContentPadding,
+        contentPadding = WcViewToggleDefaults.ViewToggleButtonContentPadding,
     ) {
-        SkViewToggleButtonContent(
+        WcViewToggleButtonContent(
             text = if (expanded) expandedText else compactText,
             trailingIcon = {
                 Icon(
-                    imageVector = if (expanded) SkIcons.ViewDay else SkIcons.ShortText,
+                    imageVector = if (expanded) WcIcons.ViewDay else WcIcons.ShortText,
                     contentDescription = null,
                 )
             },
@@ -68,7 +68,7 @@ fun SkViewToggleButton(
  * @param trailingIcon The button trailing icon content. Default is `null` for no trailing icon.
  */
 @Composable
-private fun SkViewToggleButtonContent(
+private fun WcViewToggleButtonContent(
     text: @Composable () -> Unit,
     trailingIcon: @Composable (() -> Unit)? = null,
 ) {
@@ -96,7 +96,7 @@ private fun SkViewToggleButtonContent(
 /**
  * Now in Android view toggle default values.
  */
-object SkViewToggleDefaults {
+object WcViewToggleDefaults {
     // TODO: File bug
     // Various default button padding values aren't exposed via ButtonDefaults
     val ViewToggleButtonContentPadding =

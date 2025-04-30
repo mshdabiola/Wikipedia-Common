@@ -7,8 +7,8 @@ package com.mshdabiola.designsystem
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.mshdabiola.designsystem.component.SkTopAppBar
-import com.mshdabiola.designsystem.icon.SkIcons
+import com.mshdabiola.designsystem.component.WcTopAppBar
+import com.mshdabiola.designsystem.icon.WcIcons
 import com.mshdabiola.testing.util.CaptureMultiTheme
 
 class TopAppBarScreenshotTests() {
@@ -32,11 +32,11 @@ class TopAppBarScreenshotTests() {
     @OptIn(ExperimentalMaterial3Api::class)
     @Composable
     private fun NiaTopAppBarExample() {
-        SkTopAppBar(
+        WcTopAppBar(
             titleRes = "untitled",
-            navigationIcon = SkIcons.Search,
+            navigationIcon = WcIcons.Search,
             navigationIconContentDescription = "Navigation icon",
-            actionIcon = SkIcons.MoreVert,
+            actionIcon = WcIcons.MoreVert,
             actionIconContentDescription = "Action icon",
         )
     }

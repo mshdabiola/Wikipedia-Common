@@ -46,13 +46,13 @@ import com.mshdabiola.analytics.LocalAnalyticsHelper
 import com.mshdabiola.commons.MainActivityUiState
 import com.mshdabiola.commons.MainAppViewModel
 import com.mshdabiola.commons.navigation.SkNavHost
-import com.mshdabiola.designsystem.component.SkBackground
-import com.mshdabiola.designsystem.component.SkGradientBackground
-import com.mshdabiola.designsystem.component.SkTopAppBar
-import com.mshdabiola.designsystem.icon.SkIcons
+import com.mshdabiola.designsystem.component.WcBackground
+import com.mshdabiola.designsystem.component.WcGradientBackground
+import com.mshdabiola.designsystem.component.WcTopAppBar
+import com.mshdabiola.designsystem.icon.WcIcons
 import com.mshdabiola.designsystem.theme.GradientColors
 import com.mshdabiola.designsystem.theme.LocalGradientColors
-import com.mshdabiola.designsystem.theme.SkTheme
+import com.mshdabiola.designsystem.theme.WcTheme
 import com.mshdabiola.detail.navigation.Detail
 import com.mshdabiola.detail.navigation.navigateToDetail
 import com.mshdabiola.model.DarkThemeConfig
@@ -68,10 +68,10 @@ import org.koin.core.annotation.KoinExperimentalAPI
     ExperimentalMaterial3Api::class,
 )
 @Composable
-fun SkeletonApp() {
+fun WikipediaCommonsApp() {
     val windowAdaptiveInfo = currentWindowAdaptiveInfo()
 
-    val appState = rememberSkAppState(
+    val appState = rememberWcAppState(
         windowSizeClass = windowAdaptiveInfo.windowSizeClass,
     )
     val shouldShowGradientBackground = false
@@ -82,13 +82,13 @@ fun SkeletonApp() {
     val darkTheme = shouldUseDarkTheme(uiState)
 
     CompositionLocalProvider(LocalAnalyticsHelper provides analyticsHelper) {
-        SkTheme(
+        WcTheme(
             androidTheme = shouldUseAndroidTheme(uiState),
             darkTheme = darkTheme,
             disableDynamicTheming = shouldDisableDynamicTheming(uiState),
         ) {
-            SkBackground {
-                SkGradientBackground(
+            WcBackground {
+                WcGradientBackground(
                     gradientColors = if (shouldShowGradientBackground) {
                         LocalGradientColors.current
                     } else {
@@ -123,11 +123,11 @@ fun SkeletonApp() {
                                 topBar = {
                                     if (appState.shouldShowTopBar) {
                                         if (appState.isMain) {
-                                            SkTopAppBar(
+                                            WcTopAppBar(
                                                 titleRes = "Note",
-                                                navigationIcon = SkIcons.Person,
+                                                navigationIcon = WcIcons.Person,
                                                 navigationIconContentDescription = "",
-                                                actionIcon = SkIcons.Settings,
+                                                actionIcon = WcIcons.Settings,
                                                 actionIconContentDescription = "se",
                                                 onActionClick = { appState.navController.navigateToSetting() },
                                             )
@@ -150,7 +150,7 @@ fun SkeletonApp() {
                                             text = { Text("Add Note") },
                                             icon = {
                                                 Icon(
-                                                    SkIcons.Add,
+                                                    WcIcons.Add,
                                                     contentDescription = "add",
                                                 )
                                             },

@@ -7,7 +7,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.createGraph
 import androidx.window.core.layout.WindowSizeClass
-import com.mshdabiola.commons.ui.SkAppState
+import com.mshdabiola.commons.ui.WcAppState
 import kotlinx.coroutines.test.runTest
 import org.junit.Rule
 import org.junit.Test
@@ -18,7 +18,7 @@ class SkAppState {
     @get:Rule
     val composeTestRule = createComposeRule()
 
-    private lateinit var state: SkAppState
+    private lateinit var state: WcAppState
 
     @Test
     fun currentDestination() = runTest {
@@ -33,7 +33,7 @@ class SkAppState {
                 }
             }
             state = remember(navController) {
-                SkAppState(
+                WcAppState(
                     navController = navController,
                     coroutineScope = backgroundScope,
                     WindowSizeClass.compute(456f, 456f),
